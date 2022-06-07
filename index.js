@@ -1,6 +1,5 @@
-const box = document.getElementsByClassName("box");
+const box = document.getElementById("box");
 
-box.addEventListener("click", function onClick(event) {
-  // 👇️ change background color
-  document.body.style.backgroundColor = "black";
+box.addEventListener("click", function onClick() {
+  box.style.backgroundColor = "black";
 });
